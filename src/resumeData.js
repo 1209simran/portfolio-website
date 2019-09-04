@@ -82,7 +82,7 @@ let resumeData = {
     },
     {
       name:
-        "Conducted session on Web Development which includes HTML, CSS, JS, PHP, MYSQL."
+        "Conducted a session on Web Development which includes HTML, CSS, JS, PHP, MYSQL."
     },
     {
       name:

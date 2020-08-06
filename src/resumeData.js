@@ -24,7 +24,7 @@ let resumeData = {
     }
   ],
   aboutme:
-    "I am currently a 3rd year student at Indian Institute of Information Technology and Management, Gwalior and pursuing my B.Tech+MBA in Information Technology from here. I am a self taught Full Stack Web Developer, currently diving into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "I am a 4th year student at Indian Institute of Information Technology and Management, Gwalior and pursuing Integrated B.Tech+MBA in Information Technology. I am a self taught Full Stack Web Developer, currently working on Blockchain. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
   address: "Gwalior(Madhya Pradesh), India",
   website: "https://github.com/1209simran",
   Phone: "+917597775759",
@@ -35,7 +35,7 @@ let resumeData = {
       specialization: "B.Tech+MBA, Information Technology",
       MonthOfPassing: "May",
       YearOfPassing: "2022",
-      Achievements: "CGPA: 8.86/10"
+      Achievements: "CGPA: 8.76/10"
     },
     {
       UniversityName: "Step By Step Sr. Sec. School, Alwar",
@@ -53,6 +53,13 @@ let resumeData = {
     }
   ],
   responsibilities: [
+   
+    {
+      name: "EMT of Aurora (Cultural Fest) 2020"
+    },
+    {
+      name: "Currently Technical Head in AASF (TECHNICAL CLUB)"
+    },
     {
       name: "Managerial Coordinator in AASF (2018-2019)"
     },
@@ -66,20 +73,15 @@ let resumeData = {
       name:
         "Event Organizer of Hackathon in Infotsav'19 (Tehno-Managerial Fest)"
     },
-    {
-      name: "EMT of Aurora (Cultural Fest) 2020"
-    },
-    {
-      name: "Currently Technical Head in AASF (TECHNICAL CLUB)"
-    }
   ],
   details: [
     {
-      name: "Best atheletic player Award in Urja'17."
+      name: "Qualified for the 2nd Phase of SIH (Hardware Edition) 2020"
     },
     {
-      name: "Conducted a quiz of our college fest."
+      name: "Best atheletic player Award in Urja'17."
     },
+  
     {
       name:
         "Conducted a session on Web Development which includes HTML, CSS, JS, PHP, MYSQL."
@@ -97,9 +99,7 @@ let resumeData = {
     {
       skillname: "CSS"
     },
-    {
-      skillname: "Bootstrap"
-    },
+
     {
       skillname: "Javascript"
     },
@@ -112,9 +112,7 @@ let resumeData = {
   ],
   skillsDescription1: "Server",
   skills1: [
-    {
-      skillname: "Php"
-    },
+ 
     {
       skillname: "Nodejs"
     },
@@ -142,12 +140,26 @@ let resumeData = {
       url: "https://github.com/1209simran/OutBoom"
     },
     {
+      name: "Event Management System",
+      description:
+        "An application to manage list of all visitors.",
+      imgurl: "images/portfolio/farmerboy.jpg",
+      url: "https://github.com/1209simran/Entry-Management-System"
+    },
+    {
+      name: "Web Scrapping Projects",
+      description: "Web Scraping using Python",
+      imgurl: "images/portfolio/console.jpg",
+      url: "https://github.com/1209simran/Web-Scraping-Projects"
+    },
+    {
       name: "Portfolio Website",
       description:
         "Showcase your work, testimonials and other information to clients.",
       imgurl: "images/portfolio/origami.jpg",
       url: "https://github.com/1209simran/Portfolio-Website"
     },
+
     {
       name: "Photo Gallery",
       description: "React+Redux Photo Gallery Application",
@@ -162,25 +174,11 @@ let resumeData = {
       url: "https://github.com/1209simran/Weather-Finder"
     },
     {
-      name: "Library Management System",
-      description:
-        "Software engineering project using HTML, CSS, JS, PHP, MYSQL",
-      imgurl: "images/portfolio/farmerboy.jpg",
-      url: "https://github.com/1209simran/Library-Management-system-SE-Project-"
-    },
-    {
-      name: "Food-Order-USA",
-      description: "Food order system website using MERN",
+      name: "OTP-Timer",
+      description: "Created a public NPM module using reactJS",
       imgurl: "images/portfolio/coffee.jpg",
-      url: "https://github.com/1209simran/Food-order-USA"
+      url: "https://github.com/1209simran/otp-timer"
     },
-    {
-      name: "Axios-Pagination-React",
-      description: "Axios and pagination is used to build a page using react.",
-      imgurl: "images/portfolio/console.jpg",
-      url: "https://github.com/1209simran/Axios-Pagination-React"
-    },
-
     {
       name: "Webkriti",
       description:

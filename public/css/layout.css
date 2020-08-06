@@ -399,37 +399,37 @@ ul#nav li.current a {
   -webkit-animation: html5 2s ease;
 }
 .reactjs {
-  width: 60%;
+  width: 70%;
   -moz-animation: reactjs 2s ease;
   -webkit-animation: reactjs 2s ease;
 }
-.bootstrap {
+/* .bootstrap {
   width: 70%;
   -moz-animation: bootstrap 2s ease;
   -webkit-animation: bootstrap 2s ease;
-}
+} */
 .javascript {
-  width: 70%;
+  width: 50%;
   -moz-animation: javascript 2s ease;
   -webkit-animation: javascript 2s ease;
 }
 .redux {
-  width: 60%;
+  width: 70%;
   -moz-animation: redux 2s ease;
   -webkit-animation: redux 2s ease;
 }
-.php {
+/* .php {
   width: 50%;
   -moz-animation: php 2s ease;
   -webkit-animation: php 2s ease;
-}
+} */
 .nodejs {
   width: 50%;
   -moz-animation: nodejs 2s ease;
   -webkit-animation: nodejs 2s ease;
 }
 .npm {
-  width: 60%;
+  width: 50%;
   -moz-animation: npm 2s ease;
   -webkit-animation: npm 2s ease;
 }
@@ -444,7 +444,7 @@ ul#nav li.current a {
   -webkit-animation: mongodb 2s ease;
 }
 .mysql {
-  width: 90%;
+  width: 70%;
   -moz-animation: mysql 2s ease;
   -webkit-animation: mysql 2s ease;
 }
@@ -470,7 +470,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 60%;
+    width: 70%;
   }
 }
 @-moz-keyframes javascript {
@@ -478,7 +478,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 70%;
+    width: 50%;
   }
 }
 @-moz-keyframes bootstrap {
@@ -494,7 +494,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 60%;
+    width: 70%;
   }
 }
 @-moz-keyframes php {
@@ -526,7 +526,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 60%;
+    width: 50%;
   }
 }
 @-moz-keyframes mongodb {
@@ -542,7 +542,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 90%;
+    width: 70%;
   }
 }
 
@@ -567,7 +567,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 60%;
+    width: 70%;
   }
 }
 @-webkit-keyframes javascript {
@@ -575,7 +575,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 70%;
+    width: 50%;
   }
 }
 @-webkit-keyframes bootstrap {
@@ -591,7 +591,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 60%;
+    width: 70%;
   }
 }
 @-webkit-keyframes php {
@@ -623,7 +623,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 60%;
+    width: 50%;
   }
 }
 @-webkit-keyframes mongodb {
@@ -639,7 +639,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 90%;
+    width: 70%;
   }
 }
 

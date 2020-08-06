@@ -6,15 +6,16 @@ export default class About extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="about">
+       
         <div className="row">
-          <div className="three columns hover01">
+          {/* <div className="three columns hover01">
             <figure>
               <img className="profile-pic" src="images/profilepic.jpg" alt="" />
             </figure>
-          </div>
+          </div> */}
 
-          <div className="nine columns main-col">
-            <Particle />
+          <div className="twelve columns main-col">
+          <Particle />
             <h2>About Me</h2>
             <p>{resumeData.aboutme}</p>
 
@@ -36,6 +37,42 @@ export default class About extends Component {
                   </span>
                   <br></br>
                   <span>{resumeData.Phone}</span>
+                </p>
+              </div>
+              <div className="columns contact-details">
+                <h2>Programming Handles</h2>
+                <p className="address">
+                  <span>Codeforces: <a
+                      href="https://codeforces.com/profile/simran12"
+                      style={{ color: "#7a7a7a" }}
+                    >
+                       codeforces.com/profile/simran12
+                    </a></span>
+                  <br></br>
+                  <span>
+                    Codechef: <a
+                      href="https://www.codechef.com/users/simran72"
+                      style={{ color: "#7a7a7a" }}
+                    >
+                     codechef.com/users/simran72
+                    </a>
+                  </span>
+                  <br></br>
+                  <span>Leetcode: <a
+                      href="https://leetcode.com/1209simran/"
+                      style={{ color: "#7a7a7a" }}
+                    >
+                      leetcode.com/1209simran
+                    </a></span>
+                  <br></br>
+                  <span>HackerRank: <a
+                      href="https://www.hackerrank.com/1209simran"
+                      style={{ color: "#7a7a7a" }}
+                    >
+                      hackerrank.com/1209simran
+                    </a></span>
+                  <br></br>
+                  
                 </p>
               </div>
             </div>

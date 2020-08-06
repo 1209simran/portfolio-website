@@ -43,6 +43,7 @@ export default class Header extends Component {
               <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
                 I am a {resumeData.role}.{resumeData.roleDescription}
               </h3>
+              <a href="https://drive.google.com/file/d/1Q9peBguL-b0ugFAwlaVg7ya3YuLpQGc0/view?usp=sharing" target="_blank"><button >Resume</button></a>
               <hr />
               <ul className="social">
                 {resumeData.socialLinks &&
@@ -56,6 +57,7 @@ export default class Header extends Component {
                     );
                   })}
               </ul>
+
             </div>
           </div>
           <p className="scrolldown">

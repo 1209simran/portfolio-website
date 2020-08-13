@@ -32,7 +32,7 @@ export default class Resume extends Component {
               })}
           </div>
         </div>
-        <div className="row work">
+        {/* <div className="row work">
           <div className="three columns header-col">
             <h1>
               Position of <span>Responsibilities</span>
@@ -53,7 +53,7 @@ export default class Resume extends Component {
                 );
               })}
           </div>
-        </div>
+        </div> */}
 
         <div className="row skill">
           <div className="three columns header-col">
@@ -124,9 +124,29 @@ export default class Resume extends Component {
                   })}
               </ul>
             </div>
+            <p>
+              <h3>
+                <center>{resumeData.skillsDescription3}</center>
+              </h3>
+            </p>
+            <div className="bars">
+              <ul className="skills">
+                {resumeData.skills3 &&
+                  resumeData.skills3.map(item => {
+                    return (
+                      <li>
+                        <span
+                          className={`bar-expand ${item.skill.toLowerCase()}`}
+                        ></span>
+                        <em>{item.skillname}</em>
+                      </li>
+                    );
+                  })}
+              </ul>
+            </div>
           </div>
 
-          <div className="row ">
+          {/* <div className="row ">
             <div className="three columns header-col">
               <h1>
                 <span>Additional Details</span>
@@ -147,7 +167,7 @@ export default class Resume extends Component {
                   );
                 })}
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     );

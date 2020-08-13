@@ -24,7 +24,7 @@ let resumeData = {
     }
   ],
   aboutme:
-    "I am a 4th year student at Indian Institute of Information Technology and Management, Gwalior and pursuing Integrated B.Tech+MBA in Information Technology. I am a self taught Full Stack Web Developer, currently working on Blockchain. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "I am a prefinal year student at Indian Institute of Information Technology and Management, Gwalior and pursuing Integrated B.Tech+MBA in Information Technology. I am a self taught Full Stack Web Developer, currently working on Blockchain. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
   address: "Gwalior(Madhya Pradesh), India",
   website: "https://github.com/1209simran",
   Phone: "+917597775759",
@@ -130,6 +130,21 @@ let resumeData = {
     },
     {
       skillname: "Mongodb"
+    }
+  ],
+  skillsDescription3: "Programming",
+  skills3: [
+    {
+      skillname: "C",
+      skill:"c",
+    },
+    {
+      skillname: "C++",
+      skill:"cpp",
+    },
+    {
+      skillname: "Data Structures and Algorithms",
+      skill:"ds",
     }
   ],
   portfolio: [

@@ -448,6 +448,21 @@ ul#nav li.current a {
   -moz-animation: mysql 2s ease;
   -webkit-animation: mysql 2s ease;
 }
+.c {
+  width: 60%;
+  -moz-animation: c 2s ease;
+  -webkit-animation: c 2s ease;
+}
+.cpp {
+  width: 60%;
+  -moz-animation: cpp 2s ease;
+  -webkit-animation: cpp 2s ease;
+}
+.ds {
+  width: 50%;
+  -moz-animation: ds 2s ease;
+  -webkit-animation: ds 2s ease;
+}
 
 @-moz-keyframes css {
   0% {
@@ -545,6 +560,31 @@ ul#nav li.current a {
     width: 70%;
   }
 }
+@-moz-keyframes c {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@-moz-keyframes cpp {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@-moz-keyframes ds {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
 
 @-webkit-keyframes css {
   0% {
@@ -640,6 +680,30 @@ ul#nav li.current a {
   }
   100% {
     width: 70%;
+  }
+}
+@-webkit-keyframes c {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@-webkit-keyframes cpp {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@-webkit-keyframes ds {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 50%;
   }
 }
 

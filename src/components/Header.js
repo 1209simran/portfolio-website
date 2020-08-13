@@ -37,8 +37,11 @@ export default class Header extends Component {
               </li>
             </ul>
           </nav>
+          
           <div className="row banner">
+         
             <div className="banner-text">
+             
               <h1 className="anim-typewriter">I am {resumeData.name}.</h1>
               <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
                 I am a {resumeData.role}.{resumeData.roleDescription}

@@ -104,7 +104,7 @@ let resumeData = {
       skillname: "Javascript"
     },
     {
-      skillname: "Reactjs"
+      skillname: "ReactJS"
     },
     {
       skillname: "Redux"
@@ -114,7 +114,7 @@ let resumeData = {
   skills1: [
  
     {
-      skillname: "Nodejs"
+      skillname: "NodeJS"
     },
     {
       skillname: "Express"
@@ -126,10 +126,10 @@ let resumeData = {
   skillsDescription2: "Databases",
   skills2: [
     {
-      skillname: "Mysql"
+      skillname: "MYSQL"
     },
     {
-      skillname: "Mongodb"
+      skillname: "MongoDB"
     }
   ],
   skillsDescription3: "Programming",

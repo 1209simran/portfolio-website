@@ -361,6 +361,7 @@ ul#nav li.current a {
 .bars li {
   position: relative;
   margin-bottom: 60px;
+  
   background: #ccc;
   height: 42px;
   border-radius: 3px;
@@ -368,7 +369,7 @@ ul#nav li.current a {
 .bars li em {
   font: 15px "opensans-bold", sans-serif;
   color: #313131;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 2px;
   font-weight: normal;
   position: relative;

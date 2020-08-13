@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Particle from "../components/particle";
+// import Particle from "../components/particle";
 
 export default class About extends Component {
   render() {
@@ -15,7 +15,7 @@ export default class About extends Component {
           </div> */}
 
           <div className="twelve columns main-col">
-          <Particle />
+          {/* <Particle /> */}
             <h2>About Me</h2>
             <p>{resumeData.aboutme}</p>
 

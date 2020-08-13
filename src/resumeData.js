@@ -25,8 +25,8 @@ let resumeData = {
   ],
   aboutme:
     "I am a prefinal year student at Indian Institute of Information Technology and Management, Gwalior and pursuing Integrated B.Tech+MBA in Information Technology. I am a self taught Full Stack Web Developer, currently working on Blockchain. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-  address: "Gwalior(Madhya Pradesh), India",
-  website: "https://github.com/1209simran",
+  address: "Alwar(Rajasthan), India",
+  website: "https://portfolio-simran.herokuapp.com",
   Phone: "+917597775759",
   education: [
     {

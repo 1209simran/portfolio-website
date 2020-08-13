@@ -29,7 +29,7 @@ export default class About extends Component {
                   <br></br>
                   <span>
                     <a
-                      href="https://github.com/1209simran"
+                      href="https://portfolio-simran.herokuapp.com/"
                       style={{ color: "#7a7a7a" }}
                     >
                       {resumeData.website}

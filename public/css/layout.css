@@ -25,6 +25,11 @@
 body {
   background: #0f0f0f;
 }
+body::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -73,7 +78,7 @@ header h1 {
 header .banner-text h1 {
   /* font: 20px/1.1em "opensans-bold", sans-serif; */
 
-  color: #e8eb32;
+  color: #d58eb5;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
@@ -112,7 +117,7 @@ header .social li a {
   color: #fff;
 }
 header .social li a:hover {
-  color: #e8eb32;
+  color: #d58eb5;
 }
 
 /* scrolldown link */
@@ -136,7 +141,7 @@ header .scrolldown a {
   transition: all 0.3s ease-in-out;
 }
 header .scrolldown a:hover {
-  color: #e8eb32;
+  color: #d58eb5;
 }
 
 /* primary navigation
@@ -207,7 +212,7 @@ ul#nav li a:active {
   background-color: transparent !important;
 }
 ul#nav li.current a {
-  color: #e8eb32;
+  color: #d58eb5;
 }
 
 /* ------------------------------------------------------------------ */
@@ -227,7 +232,7 @@ ul#nav li.current a {
 }
 #about a:hover,
 #about a:focus {
-  color: #11abb0;
+  color: #d58eb5;
 }
 
 #about h2 {
@@ -304,7 +309,7 @@ ul#nav li.current a {
   letter-spacing: 1px;
 }
 #resume h1 span {
-  border-bottom: 3px solid #d41fec;
+  border-bottom: 3px solid #d58eb5;
   padding-bottom: 6px;
 }
 #resume h3 {
@@ -558,7 +563,7 @@ ul#nav li.current a {
   cursor: pointer;
 }
 .popup-modal a:hover {
-  color: #e8eb32;
+  color: #d58eb5;
 }
 .popup-modal a.popup-modal-dismiss {
   margin-left: 24px;
@@ -999,7 +1004,7 @@ footer a:visited {
 }
 footer a:hover,
 footer a:focus {
-  color: #e8eb32;
+  color: #d58eb5;
 }
 
 /* copyright */
@@ -1071,7 +1076,7 @@ footer .social-links li:first-child {
   border-radius: 100%;
 }
 #go-top a:hover {
-  background-color: #e8eb32;
+  background-color: #d58eb5;
 }
 #work {
   background: #2b2b2b;
@@ -1087,6 +1092,6 @@ footer .social-links li:first-child {
   color: #fff;
 }
 #work h1 span {
-  border-bottom: 3px solid #d41fec;
+  border-bottom: 3px solid #d58eb5;
   padding-bottom: 6px;
 }

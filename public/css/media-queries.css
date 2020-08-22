@@ -27,7 +27,7 @@
     padding-bottom: 12px;
   }
   header .banner-text h1 {
-    font: 78px/1.1em 'opensans-bold', sans-serif;
+    font: 30px/1.1em 'opensans-bold', sans-serif;
     letter-spacing: -1px;
   }
   header .banner-text h3 {
@@ -118,7 +118,7 @@
     width: 48px;
     height: 48px;
     text-align: left;
-    background-color: #cc5200;
+    background-color: #d58eb5;
     position: relative;
     border: none;
     float: right;
@@ -199,7 +199,7 @@
     padding-top: 6px;
   }
   header .banner-text h1 {
-    font: 68px/1.1em 'opensans-bold', sans-serif;
+    font: 30px/1.1em 'opensans-bold', sans-serif;
   }
   header .banner-text h3 {
     font: 16px/1.9em 'librebaskerville-regular', serif;

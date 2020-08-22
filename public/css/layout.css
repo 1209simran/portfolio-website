@@ -496,6 +496,7 @@ ul#nav li.current a {
 }
 .portfolio-item .portfolio-item-meta {
   padding: 18px;
+  text-align: center;
 }
 .portfolio-item .portfolio-item-meta h5 {
   font: 14px/21px 'opensans-bold', sans-serif;

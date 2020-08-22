@@ -156,6 +156,14 @@ let resumeData = {
   ],
   portfolio: [
     {
+      name: 'Chefkart',
+      description:
+        'ChefKart is a subscription based cook service that provides flexibility around what cuisine you want to eat, when you want to eat.',
+      imgurl: 'images/portfolio/coffee.jpg',
+
+      url: 'https://thechefkart.com',
+    },
+    {
       name: 'OutBoom',
       description: 'Developer Community Website',
       imgurl: 'images/portfolio/into-the-light.jpg',
@@ -164,21 +172,22 @@ let resumeData = {
     {
       name: 'Event Management System',
       description: 'An application to manage list of all visitors.',
-      imgurl: 'images/portfolio/farmerboy.jpg',
+      imgurl: 'images/portfolio/console.jpg',
       url: 'https://github.com/1209simran/Entry-Management-System',
     },
     {
       name: 'Web Scrapping Projects',
       description: 'Web Scraping using Python',
-      imgurl: 'images/portfolio/console.jpg',
+      imgurl: 'images/portfolio/farmerboy.jpg',
       url: 'https://github.com/1209simran/Web-Scraping-Projects',
     },
     {
       name: 'Portfolio Website',
       description:
-        'Showcase your work, testimonials and other information to clients.',
-      imgurl: 'images/portfolio/origami.jpg',
-      url: 'https://github.com/1209simran/Portfolio-Website',
+        'Showcase my work, testimonials and other information to the world.',
+      imgurl: 'images/portfolio/girl.jpg',
+
+      url: 'https://portfolio-simran.herokuapp.com/',
     },
 
     {
@@ -197,15 +206,8 @@ let resumeData = {
     {
       name: 'OTP-Timer',
       description: 'Created a public NPM module using reactJS',
-      imgurl: 'images/portfolio/coffee.jpg',
-      url: 'https://github.com/1209simran/otp-timer',
-    },
-    {
-      name: 'Webkriti',
-      description:
-        'A Winter Fest demo website developed in HTML, CSS, JS, PHP and MYSQL.',
-      imgurl: 'images/portfolio/girl.jpg',
-      url: 'https://github.com/1209simran/Webkriti--Winter-Fest',
+      imgurl: 'images/portfolio/origami.jpg',
+      url: 'https://www.npmjs.com/package/otp-timer',
     },
   ],
 }

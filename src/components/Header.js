@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import "../css/about.css";
-import resume from "../Simran_Gupta.pdf"
+import React, { Component } from 'react'
+import '../css/about.css'
+import resume from '../Simran_Gupta.pdf'
 export default class Header extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    let resumeData = this.props.resumeData
     return (
       <React.Fragment>
         <header id="home">
@@ -27,7 +27,12 @@ export default class Header extends Component {
               </li>
               <li>
                 <a className="smoothscroll" href="#resume">
-                  Resume
+                  Skills
+                </a>
+              </li>
+              <li>
+                <a className="smoothscroll" href="#work">
+                  Work Experience
                 </a>
               </li>
               <li>
@@ -37,30 +42,29 @@ export default class Header extends Component {
               </li>
             </ul>
           </nav>
-          
+
           <div className="row banner">
-         
             <div className="banner-text">
-             
               <h1 className="anim-typewriter">I am {resumeData.name}.</h1>
-              <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
+              <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>
                 I am a {resumeData.role}.{resumeData.roleDescription}
               </h3>
-              <a href={resume} download><button >Resume</button></a>
+              <a href={resume} download>
+                <button>Resume</button>
+              </a>
               <hr />
               <ul className="social">
                 {resumeData.socialLinks &&
-                  resumeData.socialLinks.map(item => {
+                  resumeData.socialLinks.map((item) => {
                     return (
                       <li key={item.name}>
                         <a href={item.url} target="_blank">
                           <i className={item.className}></i>
                         </a>
                       </li>
-                    );
+                    )
                   })}
               </ul>
-
             </div>
           </div>
           <p className="scrolldown">
@@ -70,6 +74,6 @@ export default class Header extends Component {
           </p>
         </header>
       </React.Fragment>
-    );
+    )
   }
 }

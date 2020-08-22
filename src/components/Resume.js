@@ -41,17 +41,19 @@ export default class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">
-              <div className="columns-skills">
-                {resumeData.skills &&
-                  resumeData.skills.map((item) => {
-                    return (
-                      <img
-                        className="grid-item"
-                        src={`${item.imgurl}`}
-                        style={{ width: '110px', height: '110px' }}
-                      />
-                    )
-                  })}
+              <div className="contain">
+                <div className="columns-skills">
+                  {resumeData.skills &&
+                    resumeData.skills.map((item) => {
+                      return (
+                        <img
+                          className="grid-item"
+                          src={`${item.imgurl}`}
+                          style={{ width: '110px', height: '110px' }}
+                        />
+                      )
+                    })}
+                </div>
               </div>
             </div>
           </div>

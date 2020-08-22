@@ -359,6 +359,8 @@ ul#nav li.current a {
   grid-column-end: span col4-start;
   grid-row-start: 2;
   grid-row-end: span 2;
+  /* display: grid; */
+  justify-content: center;
 }
 .grid-item {
   padding: 20px;

@@ -78,7 +78,7 @@ header h1 {
 header .banner-text h1 {
   /* font: 20px/1.1em "opensans-bold", sans-serif; */
 
-  color: #d58eb5;
+  color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);

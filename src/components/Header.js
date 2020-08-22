@@ -60,21 +60,23 @@ export default class Header extends Component {
                   }}
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString(
-                        ' <span style="color: #fff; font-size: 30px;">Former Intern at WhatsurSkill',
-                      )
+                      .typeString('Former Intern at WhatsurSkill')
 
                       .pauseFor(300)
                       .deleteChars(30)
-                      .typeString(
-                        ' <span style="color: #fff; font-size: 30px;">Full Stack Devloper',
-                      )
+                      .typeString('Full Stack Devloper')
                       .pauseFor(300)
                       .start()
                   }}
                 />
               </div>
-              <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>
+              <h3
+                style={{
+                  color: '#fff',
+                  fontFamily: 'sans-serif ',
+                  marginTop: '20px',
+                }}
+              >
                 Open to Internship Opportunities
               </h3>
 

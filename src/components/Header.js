@@ -45,14 +45,14 @@ export default class Header extends Component {
 
           <div className="row banner">
             <div className="banner-text">
-              <h1 className="anim-typewriter">I am {resumeData.name}.</h1>
+              <h1>
+                Hello, <br />I am {resumeData.name}.
+              </h1>
+              <div className="anim-typewriter type">Full stack Developer</div>
               <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>
-                I am a {resumeData.role}.{resumeData.roleDescription}
+                Open to Internship Opportunities
               </h3>
-              <a href={resume} download>
-                <button>Resume</button>
-              </a>
-              <hr />
+
               <ul className="social">
                 {resumeData.socialLinks &&
                   resumeData.socialLinks.map((item) => {
@@ -64,6 +64,11 @@ export default class Header extends Component {
                       </li>
                     )
                   })}
+
+                <hr />
+                <a href={resume} download>
+                  <button className="button3">Download Resume</button>
+                </a>
               </ul>
             </div>
           </div>

@@ -652,15 +652,17 @@ button,
 input[type='submit'],
 input[type='reset'],
 input[type='button'] {
-  font: 16px/30px 'opensans-bold', sans-serif;
-  background: #ebb8d4;
+  font: 16px/30px sans-serif;
+  border: 2px solid #ebb8d4;
+  background: none;
   display: inline-block;
-  text-decoration: none;
+  font-weight: 600;
+  /* text-decoration: none; */
   letter-spacing: 0;
-  color: #000;
+  color: #fff;
   padding: 8px 15px;
   margin-top: 12px;
-  border: none;
+  /* border: none; */
   cursor: pointer;
   height: auto;
 
@@ -681,8 +683,8 @@ button:hover,
 input[type='submit']:hover,
 input[type='reset']:hover,
 input[type='button']:hover {
-  background: #3d4145;
-  color: #fff;
+  background-color: #ebb8d4;
+  color: #000;
 }
 
 .button:active,
@@ -690,7 +692,7 @@ button:active,
 input[type='submit']:active,
 input[type='reset']:active,
 input[type='button']:active {
-  background: #3d4145;
+  border: 2px solid #ebb8d4;
   color: #fff;
 }
 

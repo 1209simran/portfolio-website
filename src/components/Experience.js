@@ -15,7 +15,7 @@ export default class About extends Component {
             <ul class="timeline">
               <li class="event">
                 <div className="text">
-                  Web Developement Intern - WhatsurSkill
+                  Web Development Intern - WhatsurSkill
                 </div>
                 <div style={{ marginBottom: '20px' }}>
                   February 2020 – April 2020

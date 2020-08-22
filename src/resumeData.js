@@ -176,7 +176,7 @@ let resumeData = {
       url: 'https://github.com/1209simran/Entry-Management-System',
     },
     {
-      name: 'Web Scrapping Projects',
+      name: 'Web Scraping Projects',
       description: 'Web Scraping using Python',
       imgurl: 'images/portfolio/farmerboy.jpg',
       url: 'https://github.com/1209simran/Web-Scraping-Projects',

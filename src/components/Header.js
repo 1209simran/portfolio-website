@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import '../css/about.css'
 import resume from '../Simran_Gupta.pdf'
+import Typewriter from 'typewriter-effect'
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData
@@ -48,7 +50,30 @@ export default class Header extends Component {
               <h1>
                 Hello, <br />I am {resumeData.name}.
               </h1>
-              <div className="anim-typewriter type">Full stack Developer</div>
+              <div className="typewriter">
+                <Typewriter
+                  options={{
+                    autoStart: true,
+                    loop: true,
+                    delay: 100,
+                    deleteSpeed: 20,
+                  }}
+                  onInit={(typewriter) => {
+                    typewriter
+                      .typeString(
+                        ' <span style="color: #fff; font-size: 30px;">Former Intern at WhatsurSkill',
+                      )
+
+                      .pauseFor(300)
+                      .deleteChars(30)
+                      .typeString(
+                        ' <span style="color: #fff; font-size: 30px;">Full Stack Devloper',
+                      )
+                      .pauseFor(300)
+                      .start()
+                  }}
+                />
+              </div>
               <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>
                 Open to Internship Opportunities
               </h3>

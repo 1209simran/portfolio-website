@@ -93,8 +93,11 @@ export default class Header extends Component {
                   })}
 
                 <hr />
-                <a href={resume} download>
-                  <button className="button3">Download Resume</button>
+                <a
+                  href="https://drive.google.com/file/d/1ki1ijCoTz2Op0FWuG_3E395K77LyqMWQ/view?usp=sharing"
+                  target="_blank"
+                >
+                  <button className="button3">Resume</button>
                 </a>
               </ul>
             </div>

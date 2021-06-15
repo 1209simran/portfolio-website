@@ -7,15 +7,29 @@ export default class About extends Component {
       <section id="work">
         <div className="row">
           <div className="three columns header-col">
-            <h1>
+            <h1 style={{lineHeight:"35px"}}>
               <span>Work Experience</span>
             </h1>
           </div>
           <div className="nine columns main-col">
             <ul class="timeline">
-              <li class="event">
-                <div className="text">
-                  Web Development Intern - WhatsurSkill
+            <li class="event">
+                <div className="text"  style={{lineHeight:"28px"}}>
+                  Software Development Engineering Intern <br></br><div style={{fontSize:"17px", color:"#E8E8E8"}}><i>BNY Mellon</i></div>
+                </div>
+                <div style={{ marginBottom: '20px' }}>
+                  May 2021 – Present
+                </div>
+                <div style={{ marginBottom: '15px' }}>
+                  - Currently working on creating Restful APIs for different modules in the project as per the requirement and also working on Spring MVC Architecture and JPA repository.
+                </div>
+                <div style={{ marginBottom: '15px' }}>
+                  - Technologies Used:- JAVA, Maven, Spring Boot, JPA
+                </div>
+              </li>
+            <li class="event">
+                <div className="text"  style={{lineHeight:"28px"}}>
+                  Web Development Intern <br></br><div style={{fontSize:"17px", color:"#E8E8E8"}}><i>WhatsurSkill</i></div>
                 </div>
                 <div style={{ marginBottom: '20px' }}>
                   February 2020 – April 2020
@@ -35,8 +49,8 @@ export default class About extends Component {
                 </div>
               </li>
               <li class="event">
-                <div className="text">
-                  Full Stack Developer Intern - Trybotics
+              <div className="text"  style={{lineHeight:"28px"}}>
+              Full Stack Developer Intern <br></br><div style={{fontSize:"17px", color:"#E8E8E8"}}><i>Trybotics</i></div>
                 </div>
                 <div style={{ marginBottom: '20px' }}>
                   October 2019 – December 2019

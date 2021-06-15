@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import '../css/about.css'
-import resume from '../Simran_Gupta.pdf'
 import Typewriter from 'typewriter-effect'
 
 export default class Header extends Component {
@@ -60,10 +59,10 @@ export default class Header extends Component {
                   }}
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString('Former Intern at WhatsurSkill')
+                      .typeString('SDE Intern at BNY Mellon')
 
                       .pauseFor(300)
-                      .deleteChars(30)
+                      .deleteChars(24)
                       .typeString('Full Stack Devloper')
                       .pauseFor(300)
                       .start()
@@ -77,7 +76,7 @@ export default class Header extends Component {
                   marginTop: '20px',
                 }}
               >
-                Open to Internship Opportunities
+                Open to Full-time Opportunities
               </h3>
 
               <ul className="social">

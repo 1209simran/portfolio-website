@@ -26,7 +26,7 @@ export default class About extends Component {
                   <br></br>
                   <span>{resumeData.address}</span>
                   <br></br>
-                  <span>
+                  {/* <span>
                     <a
                       href="https://portfolio-simran.herokuapp.com/"
                       style={{ color: '#7a7a7a' }}
@@ -34,7 +34,7 @@ export default class About extends Component {
                       {resumeData.website}
                     </a>
                   </span>
-                  <br></br>
+                  <br></br> */}
                   <span>{resumeData.Phone}</span>
                 </p>
               </div>
@@ -42,7 +42,7 @@ export default class About extends Component {
                 <h2>Programming Handles</h2>
                 <p className="address">
                   <span>
-                    Codechef:{' '}
+                    <b>Codechef:{' '}</b>
                     <a
                       href="https://www.codechef.com/users/simran72"
                       style={{ color: '#7a7a7a' }}
@@ -52,18 +52,9 @@ export default class About extends Component {
                   </span>
 
                   <br></br>
+                  
                   <span>
-                    Leetcode:{' '}
-                    <a
-                      href="https://leetcode.com/1209simran/"
-                      style={{ color: '#7a7a7a' }}
-                    >
-                      leetcode.com/1209simran
-                    </a>
-                  </span>
-                  <br></br>
-                  <span>
-                    Codeforces:{' '}
+                    <b>Codeforces:{' '}</b>
                     <a
                       href="https://codeforces.com/profile/simran12"
                       style={{ color: '#7a7a7a' }}
@@ -72,7 +63,17 @@ export default class About extends Component {
                     </a>
                   </span>
                   <br></br>
-
+                  <span>
+                    <b>Leetcode:{' '}</b>
+                    <a
+                      href="https://leetcode.com/1209simran/"
+                      style={{ color: '#7a7a7a' }}
+                    >
+                      leetcode.com/1209simran
+                    </a>
+                  </span>
+                  {/* <br></br> */}
+{/* 
                   <span>
                     HackerRank:{' '}
                     <a
@@ -81,7 +82,7 @@ export default class About extends Component {
                     >
                       hackerrank.com/1209simran
                     </a>
-                  </span>
+                  </span> */}
                   <br></br>
                 </p>
               </div>

@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import "../App.css"
+
 export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData
@@ -49,7 +51,7 @@ export default class Resume extends Component {
                         <img
                           className="grid-item"
                           src={`${item.imgurl}`}
-                          style={{ width: '110px', height: '110px' }}
+                          // style={{ width: '110px', height: '110px' }}
                         />
                       )
                     })}
